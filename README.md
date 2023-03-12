@@ -10,7 +10,8 @@
 > Email : tryingmybest24h@gmail.com
 >
 > Github : [https://github.com/inkyu-yoon](github.com/inkyu-yoon)
-
+> 
+> Blog : https://inkyu-yoon.github.io/
 
 <br>
 
@@ -26,12 +27,14 @@
 <br>
 
 ## 프로젝트
+프로젝트 기능 동작에 대한 상세 설명은 각 Github Repository ReadMe.md 에 작성되어있습니다.
+<br>
 ### [🏫 My Academy](https://github.com/mutsa-team6/myacademy)
 > [Github](https://github.com/mutsa-team6/myacademy) · [배포 주소](http://ec2-13-209-97-187.ap-northeast-2.compute.amazonaws.com/)  
 >  
 > **참여 인원** : 5명  
 > **개발 기간** : 2023.01 ~ 2023.02  
-> **사용 기술** : Java 11 · Spring Boot 2.7.7 · Spring Security · JPA · MySQL 8.0 · AWS EC2 · AWS S3 · Docker · Nginx · Redis · SonarQube  
+> **사용 기술** : Java 11 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · AWS S3 · Docker · Nginx · Redis · SonarQube  
 > 
 > **📌 프로젝트에 팀원으로서 기여한 사항**  
 >  
@@ -51,7 +54,7 @@
 >  
 > **참여 인원** : 개인 프로젝트  
 > **개발 기간** : 2022.12 ~ 2022.01  
-> **사용 기술** : Java 11 · Spring Boot 2.7.5 · Spring Security · JPA · MySQL 8.0 · AWS EC2 · Querydsl · Docker · Github Actions  
+> **사용 기술** : Java 11 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · Querydsl · Docker · Github Actions  
 > 
 > **📌 주요 개발 사항**  
 >  
@@ -71,7 +74,7 @@
 > [Github](https://github.com/inkyu-yoon/hospital_web) · [배포 주소](http://ec2-13-231-48-116.ap-northeast-1.compute.amazonaws.com:8081/hospitals)  
 >
 > **개발 기간** : 2022.11 ~ 2022.12  
-> **사용 기술** : Java 11 · Spring Boot 2.7.5 · Spring Security · Jdbc · JPA · MySQL 8.0 · AWS EC2 · Docker 
+> **사용 기술** : Java 11 · Spring Boot · Spring Security · Jdbc · JPA · MySQL · AWS EC2 · Docker 
 > 
 > **📌 주요 개발 사항**  
 >  
