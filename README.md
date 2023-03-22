@@ -38,13 +38,13 @@
 > 
 > **📌 프로젝트에 팀원으로서 기여한 사항**  
 >  
-> 1.  [프로젝트 팀장](https://likelion.notion.site/3ebdea86f2f642699fa071b76c94d45f) · PM 역할 수행 · [코드 컨벤션 제작](https://inkyu-yoon.github.io/docs/Project/CodeConvention) · 일정관리 · 회의진행 · [데모데이 발표](https://www.canva.com/design/DAFaeRUJKBk/PQHdXXa61qBj0EwnS3adSw/view?utm_content=DAFaeRUJKBk&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel) → 프로젝트 마감일 1주일 전 기능 개발 완료 · [프로젝트 우수상](https://tryingmybest24.notion.site/2-d44ca58384c24c99a061caed3645014e) 수상  
-> 2.  학원 등록 시, [국세청 API](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15081808#/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A0%95%EB%B3%B4%20%EC%A7%84%EC%9C%84%ED%99%95%EC%9D%B8%20API/validate)를 이용해 사업자 등록번호 유효성 판단 기능 구현  
-> 3. 구글 · 네이버 Oauth 2.0 [소셜 간편 로그인 기능 구현](https://inkyu-yoon.github.io/docs/Language/SpringBoot/OauthLogin#9-%ED%85%8C%EC%8A%A4%ED%8A%B8)   
-> 4.  Redis를 이용한 [Refresh 토큰 시스템 구현](https://inkyu-yoon.github.io/docs/Language/SpringBoot/RefreshToken)  
-> 5.  Controller 단에서 validation 라이브러리로 Request body 데이터 유효성 검증 적용  
-> 6.  Sonarqube로 코드 품질 분석 후, 검출된 Bugs `15`개와 Security Hotspots `8`개 모두 `0`개로 개선  
-> 7.  Controller와 Thymeleaf 적용한, 프로젝트 내 모든 UI 페이지 구현 (페이지 총 `33`개)
+> - [프로젝트 팀장](https://www.notion.so/3ebdea86f2f642699fa071b76c94d45f) · PM 역할 수행, 일정관리 · 회의진행 · [시연영상 제작](https://www.youtube.com/watch?v=tKeKN3qd58k) · [데모데이 발표](https://www.canva.com/design/DAFaeRUJKBk/PQHdXXa61qBj0EwnS3adSw/view?utm_content=DAFaeRUJKBk&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel) 및 [코드 컨벤션 제작](https://www.notion.so/16748ff592fd48d492156cf24bf87bf4)
+> - 학원 정보 등록 시, Axios와 [국세청 API](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15081808#/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A0%95%EB%B3%B4%20%EC%A7%84%EC%9C%84%ED%99%95%EC%9D%B8%20API/validate)를 이용해 사업자 등록번호 검증 기능 구현
+> - 사용자 경험 향상을 위한 구글 · 네이버 Oauth 2.0 [소셜 간편 로그인 기능 구현](https://inkyu-yoon.github.io/docs/Language/SpringBoot/OauthLogin)
+> - 사용자 편의 향상 및 보안을 위한 In-Memory 데이터 스토리지 Redis를 이용한 [Refresh 토큰 시스템 구현](https://inkyu-yoon.github.io/docs/Language/SpringBoot/RefreshToken)
+> - Service 로직 간소화와 데이터 검증을 위한, validation 라이브러리로 Request body 데이터 유효성 검증 적용
+> - SonarQube로 코드 품질 분석 후, 검출된 Bugs `15`개와 Security Hotspots `8`개 모두 `0`개로 개선
+> - Thymeleaf 를 사용한 프로젝트 내 모든 페이지 구현 (`33개`)
 >
 
 <br>
@@ -58,15 +58,12 @@
 > 
 > **📌 주요 개발 사항**  
 >  
-> 1.  [Swagger](http://ec2-13-231-48-116.ap-northeast-1.compute.amazonaws.com:8080/swagger-ui/)를 이용한 API 문서화
-> 2.  Dockerfile · sh 스크립트 · crontab 활용한 GitLab CI/CD 파이프라인 구축 
-→  이후에, DockerCompose · Github Actions CI/CD [파이프라인 구축](https://inkyu-yoon.github.io/docs/Learned/Docker/GitActionsCICD)하여 약 `3분 30초` → 약 `1분 30초`로 개선  
-> 3. [Git submodule 적용](https://inkyu-yoon.github.io/docs/Learned/Git/GitSubmodule)을 통한 환경변수 보안 · 유지보수성 향상
-> 4.  사용자 로그인 성공 시, jwt token를 사용자 local storage에 보관 후, Spring Security로 인증 · 인가 관리 
-> 5.   Querydsl 적용을 통해 쿼리 개수와 실행시간 [최적화](https://inkyu-yoon.github.io/docs/Language/JPA/UseQuerydsl)  
-> 6.  게시글 제목 검색 · 회원명 검색 시, Querydsl 동적 쿼리 적용
-> 7.  Jacoco를 이용해 Rest Controller · Service 테스트 코드 커버리지 `100%` 
-> 8. SSE 통신 기반 댓글 및 좋아요 알림 기능 추가
+> - DockerCompose · Github Actions를 이용한 [CI/CD 파이프라인 구축](https://inkyu-yoon.github.io/docs/Learned/Docker/GitActionsCICD)
+> - [Git submodule 적용](https://inkyu-yoon.github.io/docs/Learned/Git/GitSubmodule)을 통한 환경변수 보안 · 유지보수성 향상
+> - Querydsl 적용을 통해 [쿼리 개수와 실행시간 최적화](https://inkyu-yoon.github.io/docs/Language/JPA/QuerydslRepo)
+> - 게시글 제목 검색 · 회원명 검색 시, Querydsl 동적 쿼리 적용
+> - Jacoco를 이용해 Rest Controller · Service 테스트 코드 커버리지 측정 및 커버리지 `100%` 달성
+> - SSE 통신 기반 댓글 및 좋아요 알림 기능 추가
 
 <br>
 
@@ -78,8 +75,6 @@
 > 
 > **📌 주요 개발 사항**  
 >  
-> 1. t3 small EC2 인스턴스 생성 후, Docker 이용하여 MySQL과 Gradle 프로젝트 배포  
-> 2. 지역명 · 병원명 검색 기능 · 상세 정보 조회 기능 · 리뷰 조회/작성 기능 · 게시판 기능 구현 
-> 3. Jwt 인증 방식적용 
-> 4.   `121,005`개의 csv 형식의 대용량 병·의원 데이터를 JdbcTemplate batchUpdate 적용을 통해 [DB 입력 최적화](https://inkyu-yoon.github.io/docs/Language/Spring/JdbcBatchUpdate) (t3 small 인스턴스 기준, JPA 사용시 데이터 입력 시간 `74분` 소요 → `12초`로 개선)
->
+> - 지역명 · 병원명 검색 기능 · 상세 정보 조회 기능 · 리뷰 조회 · 작성 기능 · 게시판 기능 구현
+> - `121,005`개의 csv 형식의 대용량 병·의원 데이터를 `JdbcTemplate batchUpdate` 적용을 통해 DB 입력 최적화 
+(t3 small 인스턴스 기준, JPA 사용시 데이터 입력 시간 `74분` 소요 → `12초`로 개선)
