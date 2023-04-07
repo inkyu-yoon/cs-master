@@ -30,7 +30,7 @@
 프로젝트 기능 동작에 대한 상세 설명은 각 Github Repository ReadMe.md 에 작성되어있습니다.
 <br>
 ### [🏫 My Academy](https://github.com/mutsa-team6/myacademy)
-> [Github](https://github.com/mutsa-team6/myacademy) · [배포 주소](http://ec2-13-209-97-187.ap-northeast-2.compute.amazonaws.com/)  
+> [Github](https://github.com/mutsa-team6/myacademy)
 >  
 > **참여 인원** : 5명  
 > **개발 기간** : 2023.01 ~ 2023.02  
@@ -50,7 +50,7 @@
 <br>
 
 ### [💌 SNS 게시판 프로젝트](https://github.com/inkyu-yoon/sns_project)
-> [Github](https://github.com/inkyu-yoon/sns_project) · [배포 주소](http://ec2-13-231-48-116.ap-northeast-1.compute.amazonaws.com:8080/)  
+> [Github](https://github.com/inkyu-yoon/sns_project)
 >  
 > **참여 인원** : 개인 프로젝트  
 > **개발 기간** : 2022.12 ~ 2022.01  
@@ -68,7 +68,7 @@
 <br>
 
 ### [🏣 전국 병 · 의원 데이터 웹 페이지 프로젝트](https://github.com/inkyu-yoon/hospital_web)
-> [Github](https://github.com/inkyu-yoon/hospital_web) · [배포 주소](http://ec2-13-231-48-116.ap-northeast-1.compute.amazonaws.com:8081/hospitals)  
+> [Github](https://github.com/inkyu-yoon/hospital_web)
 >
 > **개발 기간** : 2022.11 ~ 2022.12  
 > **사용 기술** : Java 11 · Spring Boot · Spring Security · Jdbc · JPA · MySQL · AWS EC2 · Docker 
