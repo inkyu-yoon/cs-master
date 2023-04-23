@@ -27,11 +27,50 @@
 <br>
 
 ## 프로젝트
-프로젝트 기능 동작에 대한 상세 설명은 각 Github Repository ReadMe.md 에 작성되어있습니다.
+프로젝트 기능 동작에 대한 상세 설명은 Github Repository ReadMe.md 에 작성되어있습니다.
+
 <br>
+
+
+### [👟 ShoeKream](https://github.com/shoe-kream/shoekream)
+> [Github](https://github.com/shoe-kream/shoekream)
+>  
+> **프로젝트 목표** : 한정판 상품 거래 플랫폼 Kream과 유사한 서비스  
+> **참여 인원** : 2명  
+> **개발 기간** : 2023.03 ~ 진행중  
+> **사용 기술** : Java 17 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · AWS S3 · Docker · Redis
+> 
+> **📌 프로젝트에 팀원으로서 기여한 사항**  
+>  
+> - HTTP Request Body 데이터 [유효성 검증 시 AOP 적용](https://inkyu-yoon.github.io/docs/Language/SpringBoot/ValidationAop)을 통한 비즈니스 로직 분리
+> - Redis를 이용한 사용자 이메일 [인증 처리 구현](https://inkyu-yoon.github.io/docs/Language/SpringBoot/RedisAndAuth)
+> - 메일 전송 기능 [비동기 처리 적용](https://inkyu-yoon.github.io/docs/Language/SpringBoot/EmailAsync) 후, 응답시간 `4.62s` → `0.725s`  로 `6.38`배 개선
+> - 메일 전송 기능에 [AOP 적용을 통한 응답속도 개선과 코드 가독성 · 유연성 향상](https://inkyu-yoon.github.io/docs/Language/SpringBoot/EmailAop) - AsyncConfiguration · EventHandler · Custom Annotation 활용
+
+<br>
+
+### [🌱 GrowITh](https://github.com/inkyu-yoon/growith)
+> [Github](https://github.com/inkyu-yoon/growith)
+>  
+> **프로젝트 목표** : IT 직군 커뮤니티 서비스  
+> **참여 인원** : 개인 프로젝트  
+> **개발 기간** : 2023.03 ~ 진행중  
+> **사용 기술** : Java 17 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · Docker · Querydsl
+> 
+> **📌 주요 개발 사항** 
+>
+> - [WebClient를 이용한](https://inkyu-yoon.github.io/docs/Language/SpringBoot/GithubLogin) Github API 활용
+> - WireMock 라이브러리를 사용해 [외부 API Mock 웹 서버 테스트 코드](https://inkyu-yoon.github.io/docs/Language/SpringBoot/WebClientTest) 작성
+> - GET 요청 시, 쿼리 파라미터로 전달되는 [Enum 타입 필드 매핑 처리 및 예외처리 개선](https://inkyu-yoon.github.io/docs/Language/SpringBoot/RequestParamEnum)
+> - Request Body Enum 타입 필드 [validation 예외처리 개선](https://inkyu-yoon.github.io/docs/Language/SpringBoot/EnumValidation)
+
+
+<br>
+
 ### [🏫 My Academy](https://github.com/mutsa-team6/myacademy)
 > [Github](https://github.com/mutsa-team6/myacademy)
 >  
+> **프로젝트 목표** : 학원 관리와 관련된 모든 기능을 제공하는 서비스  
 > **참여 인원** : 5명  
 > **개발 기간** : 2023.01 ~ 2023.02  
 > **사용 기술** : Java 11 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · AWS S3 · Docker · Nginx · Redis · SonarQube  
@@ -52,6 +91,7 @@
 ### [💌 SNS 게시판 프로젝트](https://github.com/inkyu-yoon/sns_project)
 > [Github](https://github.com/inkyu-yoon/sns_project)
 >  
+> **프로젝트 목표** : 회원 가입 후 게시글 작성 · 조회 · 수정 · 삭제 · 댓글 · 좋아요 버튼 등을 할 수 있는 SNS 서비스  
 > **참여 인원** : 개인 프로젝트  
 > **개발 기간** : 2022.12 ~ 2022.01  
 > **사용 기술** : Java 11 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · Querydsl · Docker · Github Actions  
@@ -64,17 +104,3 @@
 > - 게시글 제목 검색 · 회원명 검색 시, Querydsl 동적 쿼리 적용
 > - Jacoco를 이용해 Rest Controller · Service 테스트 코드 커버리지 측정 및 커버리지 `100%` 달성
 > - SSE 통신 기반 댓글 및 좋아요 알림 기능 추가
-
-<br>
-
-### [🏣 전국 병 · 의원 데이터 웹 페이지 프로젝트](https://github.com/inkyu-yoon/hospital_web)
-> [Github](https://github.com/inkyu-yoon/hospital_web)
->
-> **개발 기간** : 2022.11 ~ 2022.12  
-> **사용 기술** : Java 11 · Spring Boot · Spring Security · Jdbc · JPA · MySQL · AWS EC2 · Docker 
-> 
-> **📌 주요 개발 사항**  
->  
-> - 지역명 · 병원명 검색 기능 · 상세 정보 조회 기능 · 리뷰 조회 · 작성 기능 · 게시판 기능 구현
-> - `121,005`개의 csv 형식의 대용량 병·의원 데이터를 `JdbcTemplate batchUpdate` 적용을 통해 DB 입력 최적화 
-(t3 small 인스턴스 기준, JPA 사용시 데이터 입력 시간 `74분` 소요 → `12초`로 개선)
