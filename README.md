@@ -38,7 +38,7 @@
 > **프로젝트 목표** : 한정판 상품 거래 플랫폼 Kream과 유사한 서비스  
 > **참여 인원** : 2명  
 > **개발 기간** : 2023.03 ~ 진행중  
-> **사용 기술** : Java 17 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · AWS S3 · Docker · Redis
+> **사용 기술** : Java 17 · Spring Boot · Spring Security · JPA · MySQL · AWS EC2 · NCP · AWS S3 · Docker · Redis
 > 
 > **📌 프로젝트에 팀원으로서 기여한 사항**  
 >  
@@ -103,4 +103,3 @@
 > - Querydsl 적용을 통해 [쿼리 개수와 실행시간 최적화](https://inkyu-yoon.github.io/docs/Language/JPA/QuerydslRepo)
 > - 게시글 제목 검색 · 회원명 검색 시, Querydsl 동적 쿼리 적용
 > - Jacoco를 이용해 Rest Controller · Service 테스트 코드 커버리지 측정 및 커버리지 `100%` 달성
-> - SSE 통신 기반 댓글 및 좋아요 알림 기능 추가
