@@ -18,7 +18,7 @@
 ## 운영체제
 
 - [프로세스와 스레드의 특징과 차이는 무엇인가요?](https://inkyu-yoon.github.io/docs/Learned/OS/Process)
-
+- [데드락이란 무엇이고 어떤 상황에서 발생하나요?](https://inkyu-yoon.github.io/docs/Learned/OS/DeadLock)
 <br>
 
 
