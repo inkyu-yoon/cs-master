@@ -10,6 +10,8 @@
 
 ## 네트워크
 
+- [네트워크란? 인터넷이란?](https://inkyu-yoon.github.io/docs/Learned/Network/NetworkDef)
+- [OSI 7 계층](https://inkyu-yoon.github.io/docs/Learned/Network/OSIandTCP)
 - [TCP와 UDP의 특징은 무엇인가요?](https://inkyu-yoon.github.io/docs/Learned/Network/tcp-and-udp)
 - [3 Way Handshake와 4 Way Handshake는 무엇인가요?](https://inkyu-yoon.github.io/docs/Learned/Network/tcp-handshake)
 
